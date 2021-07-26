@@ -1,0 +1,28 @@
+#Prefix is shown at the start of each message.
+prefix: "&6RegionFly &8>> &e"
+
+#This messages are shown while configurating the plugin through minecraft commands. Only players with the "regionfly.admin" can execute such commands.
+regionAdded: "Players with the correct permission can now fly in &6{REGION}&e."
+regionRemoved: "Players can no longer fly in &6{REGION}&e."
+reloadConfigMessage: "Config has been reloaded!"
+invalidUsage: "Invalid Usage! Try &6/regionfly help&e."
+helpCommand:
+ - "Available Commands:"
+ - "&6RegionFly add <region> &7- &e Adds a region as fly region."
+ - "&6RegionFly remove <Region> &7- &e Removes a region from being a fly region."
+ - "&6RegionFly list &7- &e List of fly regions."
+ - "&6RegionFly reload &7- &e Reloads the config."
+ - "&6RegionFly help &7- &e This menu."
+
+
+#Players that try to run an admin command but don't have permission will see this message.
+noPermissionMesage: "No permission."
+
+#The message players will see when their flight is activated/deactivated"
+flyActivated: "Your fly mode has been activated."
+flyDeactivated: "Your fly mode has been deactivated."
+
+#The list of the regions that players with the "regionfly.fly" permission can fly in.
+#Note: this are strings so put them inside "".
+regionList:
+ - "exampleregion"

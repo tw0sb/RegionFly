@@ -1,0 +1,8 @@
+main: me.twosb.regionfly.Main
+name: RegionFly
+version: 0.1
+depend: [WorldGuard, WGRegionEvents]
+commands:
+   regionfly:
+      description: RegionFly Main Commands
+      usage: /<command>
